@@ -97,3 +97,7 @@ gulp.task('upload', () => {
         user:     'me',
         password: 'mypass'
 	});
+
+	return gulp.src('public/**/*')
+		.pipe($.if(argv.upload, conn.dest('public_html/')));
+}
