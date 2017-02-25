@@ -100,4 +100,4 @@ gulp.task('upload', () => {
 
 	return gulp.src('public/**/*')
 		.pipe($.if(argv.upload, conn.dest('public_html/')));
-}
+});
