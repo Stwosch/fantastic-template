@@ -1,7 +1,7 @@
 # fantastic-template
 By fantastic-template you can start creating your project much faster
 
-####All you need to do is install node.js and then type `npm install -g gulp-cli`. Afterwards you can type `npm install` in folder with package.json for installing all dependencies. After sucesfull installation you can run all gulp tasks.####
+#### All you need to do is install node.js and then type `npm install -g gulp-cli`. Afterwards you can type `npm install` in folder with package.json for installing all dependencies. After sucesfull installation you can run all gulp tasks. ####
 
 <hr>
 
