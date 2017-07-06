@@ -64,7 +64,7 @@ gulp.task('imgmin', () => {
 
 gulp.task('jsmin', cb => {
     pump([
-	    	gulp.src('source/js/*.js'),
+	    	gulp.src('source/js/**/*.js'),
 	        $.babel({
 	            presets: ['es2015']
 	        }),
